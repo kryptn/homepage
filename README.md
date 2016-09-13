@@ -1,11 +1,13 @@
-# homepage
+# My Homepage  
+[![Build Status](https://travis-ci.org/kryptn/homepage.svg?branch=master)](https://travis-ci.org/kryptn/homepage)
 
-[My home page.](http://dbibb.com)
+"Built" and deployed using Travis-CI
 
-Requires Docker and docker-compose
+Currently just an excuse to implement a CI/CD pipeline to deploy a static site to [Github Pages](https://pages.github.com)
 
-run with:
+Todo:
 
-    docker-compose up -d
-
-
+* Make the actual build process more exciting.
+* Move to [Pelican?](http://blog.getpelican.com/)
+* Add content to this theoretical pelican site?
+* Perhaps the process of making this project?
