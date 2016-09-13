@@ -11,8 +11,8 @@ after_success:
 - eval "$(ssh-agent -s)"
 - chmod 600 .travis/homepage
 - ssh-add .travis/homepage
-- git remote add deploy git@github.com:kryptn/kryptn.github.io.git
 - cd kgi
+- git remote add deploy git@github.com:kryptn/kryptn.github.io.git
 - git add .
 - git commit -m "Automated Deploy"
 - git push deploy
