@@ -1,0 +1,18 @@
+language: generic
+
+before_install:
+- openssl aes-256-cbc -K $encrypted_95ae726ba6a6_key -iv $encrypted_95ae726ba6a6_iv
+  -in .travis/homepage.enc -out .travis/homepage -d
+- git clone https://github.com/kryptn/kryptn.github.io kgi
+
+script: bash ./build.sh
+
+after_success:
+- eval "$(ssh-agent -s)"
+- chmod 600 .travis/homepage
+- ssh-add .travis/homepage
+- git remote add deploy git@github.com:kryptn/kryptn.github.io.git
+- cd kgi
+- git add .
+- git commit -m "Automated Deploy"
+- git push deploy
