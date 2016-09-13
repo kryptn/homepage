@@ -12,6 +12,8 @@ after_success:
 - chmod 600 .travis/homepage
 - ssh-add .travis/homepage
 - cd kgi
+- git config user.email "$git_email"
+- git config user.name "$git_name"
 - git remote add deploy git@github.com:kryptn/kryptn.github.io.git
 - git add .
 - git commit -m "Automated Deploy"
