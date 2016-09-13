@@ -15,4 +15,4 @@ after_success:
 - git remote add deploy git@github.com:kryptn/kryptn.github.io.git
 - git add .
 - git commit -m "Automated Deploy"
-- git push deploy
+- git push -u deploy master
