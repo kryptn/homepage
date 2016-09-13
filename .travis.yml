@@ -16,5 +16,5 @@ after_success:
 - git config user.name "$git_name"
 - git remote add deploy git@github.com:kryptn/kryptn.github.io.git
 - git add .
-- git commit -m "Automated Deploy"
+- git commit -m "Automated Deploy $TRAVIS_BUILD_NUMBER $TRAVIS_COMMIT"
 - git push -u deploy master
