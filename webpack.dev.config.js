@@ -19,11 +19,14 @@ var config = {
         port: 5000,
         host: '0.0.0.0',
     },
-    devtool: 'eval',
+    devtool: 'source-map',
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
     ],
+    resolve: {
+        extensions: ['', '.js', '.jsx'],
+    },
 
     module : {
         loaders : [

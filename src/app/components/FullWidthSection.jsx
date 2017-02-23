@@ -73,13 +73,11 @@ class FullWidthSection extends Component {
                     width === SMALL && styles.rootWhenSmall,
                     width === LARGE && styles.rootWhenLarge)} >
                 {content}
-                </ClearFix>
+            </ClearFix>
         
         );
     }
 }
-                
 
-}
 
 export default withWidth()(FullWidthSection);
