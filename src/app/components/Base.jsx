@@ -202,21 +202,11 @@ class Base extends Component {
         <FullWidthSection style={styles.footer}>
           <p style={prepareStyles(styles.p)}>
             {'Hand crafted with love by the engineers at '}
-            <a style={styles.a} href="http://www.call-em-all.com/Careers">
-              Call-Em-All
-            </a>
-            {' and our awesome '}
-            <a
-              style={prepareStyles(styles.a)}
-              href="https://github.com/callemall/material-ui/graphs/contributors"
-            >
-              contributors
-            </a>.
           </p>
           <IconButton
             iconStyle={styles.iconButton}
             iconClassName="muidocs-icon-custom-github"
-            href="https://github.com/callemall/material-ui"
+            href="https://github.com/kryptn/homepage"
           />
           <p style={prepareStyles(styles.browserstack)}>
             {'Thank you to '}
