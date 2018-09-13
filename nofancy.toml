@@ -1,11 +1,11 @@
 #baseURL = "http://localhost:9898/"
-baseURL = "http://dbibb.com/"
+baseURL = "https://dbibb.com/"
 languageCode = "en-us"
 title = "Bad at Naming"
 theme = "nofancy"
 
 [params]
-  highlight = "tomorrow"
+  highlight = "default"
 
   topmenu = "categories"
 
