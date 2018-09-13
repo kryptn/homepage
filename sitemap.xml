@@ -3,40 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:9898/posts/dimensional-range/</loc>
+    <loc>https://dbibb.com/posts/dimensional-range/</loc>
     <lastmod>2018-09-12T17:30:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:9898/about/</loc>
+    <loc>https://dbibb.com/about/</loc>
     <lastmod>2018-09-11T23:54:53-06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:9898/</loc>
+    <loc>https://dbibb.com/</loc>
     <lastmod>2018-09-12T17:30:33-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:9898/categories/</loc>
+    <loc>https://dbibb.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:9898/tags/methods/</loc>
+    <loc>https://dbibb.com/tags/methods/</loc>
     <lastmod>2018-09-12T17:30:33-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:9898/posts/</loc>
+    <loc>https://dbibb.com/posts/</loc>
     <lastmod>2018-09-12T17:30:33-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:9898/tags/</loc>
+    <loc>https://dbibb.com/tags/</loc>
     <lastmod>2018-09-12T17:30:33-06:00</lastmod>
     <priority>0</priority>
   </url>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bad at Naming</title>
-    <link>http://localhost:9898/posts/</link>
+    <link>https://dbibb.com/posts/</link>
     <description>Recent content in Posts on Bad at Naming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Sep 2018 17:30:33 -0600</lastBuildDate>
     
-	<atom:link href="http://localhost:9898/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dbibb.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dimensional Range</title>
-      <link>http://localhost:9898/posts/dimensional-range/</link>
+      <link>https://dbibb.com/posts/dimensional-range/</link>
       <pubDate>Wed, 12 Sep 2018 17:30:33 -0600</pubDate>
       
-      <guid>http://localhost:9898/posts/dimensional-range/</guid>
+      <guid>https://dbibb.com/posts/dimensional-range/</guid>
       <description>This method generates every coordinate between c1=(x1, x2, ..., xn) and c2=(y1, y2, ..., yn) as long as len(c1) == len(c2).
 def any_range(c1, c2): assert len(c1) == len(c2) x, *c1 = c1 y, *c2 = c2 lower, upper = [(x, y), (y, x)][x &amp;gt; y] for n in range(lower, upper + 1): if not (c1 and c2): yield (n,) else: for down in any_range(c1, c2): yield (n, *down)  from pprint import pprint In [9]: pprint(list(any_range((-2,4),(2,2)))) [(-2, 2), (-2, 3), (-2, 4), (-1, 2), (-1, 3), (-1, 4), (0, 2), (0, 3), (0, 4), (1, 2), (1, 3), (1, 4), (2, 2), (2, 3), (2, 4)]  </description>
     </item>
