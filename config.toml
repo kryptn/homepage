@@ -1,14 +1,1 @@
-baseURL = "https://dbibb.com/"
-languageCode = "en-us"
-title = "Hello"
-theme = "nofancy"
-
-[params]
-  highlight = "tomorrow"
-
-  topmenu="categories"
-
-[author]
-  name = "David Bibb"
-  github = "kryptn"
-  #gaid = "UA-66798985-1"
+nofancy.toml
