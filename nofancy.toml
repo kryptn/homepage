@@ -1,5 +1,5 @@
 #baseURL = "http://localhost:9898/"
-baseURL = "https://dbibb.com/"
+baseURL = "http://dbibb.com/"
 languageCode = "en-us"
 title = "Bad at Naming"
 theme = "nofancy"
