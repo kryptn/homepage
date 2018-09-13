@@ -12,4 +12,4 @@ theme = "nofancy"
 [author]
   name = "David Bibb"
   github = "kryptn"
-  #gaid = "UA-66798985-1"
+  gaid = "UA-66798985-1"
