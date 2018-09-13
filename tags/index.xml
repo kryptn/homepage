@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bad at Naming</title>
-    <link>https://dbibb.com/tags/</link>
+    <link>http://dbibb.com/tags/</link>
     <description>Recent content in Tags on Bad at Naming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Sep 2018 17:30:33 -0600</lastBuildDate>
     
-	<atom:link href="https://dbibb.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://dbibb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Methods</title>
-      <link>https://dbibb.com/tags/methods/</link>
+      <link>http://dbibb.com/tags/methods/</link>
       <pubDate>Wed, 12 Sep 2018 17:30:33 -0600</pubDate>
       
-      <guid>https://dbibb.com/tags/methods/</guid>
+      <guid>http://dbibb.com/tags/methods/</guid>
       <description></description>
     </item>
     
