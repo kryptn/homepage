@@ -1,5 +1,0 @@
-.travis/*
-node_modules/*
-
-*bundle.js
-*.swp
