@@ -2,25 +2,12 @@ language: go
 go:
   - "1.11"
 
-sudo: false
-
 branches:
   only:
     - master
 
-env:
-  global:
-    - SOURCE_DIR="public"
-    - BUILD_BRANCH="master"
-    - DEPLOY_BRANCH="gh-pages"
-
 install:
-  - go get github.com/magefile/mage
-  - go get -d github.com/gohugoio/hugo
-  - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
-  - mage vendor
-  - HUGO_BUILD_TAGS=extended mage install
-  - cd ${TRAVIS_BUILD_DIR}
+  - go get github.com/spf13/hugo
 
 script:
   - hugo
