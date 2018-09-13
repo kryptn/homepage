@@ -15,5 +15,6 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
+  fqdn: dbibb.com
   on:
     branch: master
