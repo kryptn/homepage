@@ -1,12 +1,13 @@
-baseURL = "https://dbibb.com/"
+baseURL = "http://localhost:9898/"
+#baseURL = "https://dbibb.com/"
 languageCode = "en-us"
-title = "Hello"
+title = "Bad at Naming"
 theme = "nofancy"
 
 [params]
   highlight = "tomorrow"
 
-  topmenu="categories"
+  topmenu = "categories"
 
 [author]
   name = "David Bibb"
